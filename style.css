@@ -1,0 +1,77 @@
+.nav-bar{
+    display: flex;
+    
+    padding: 10px;
+    background-color: rgb(230, 221, 221);
+
+
+}
+
+body{
+    margin: 0;
+}
+
+.nav-button{
+    width: 25%;
+    text-align: center;
+
+}
+ a{
+    font-style: normal;
+
+ }
+
+ .page-title{
+max-width: 60%;
+margin: auto;
+ font-size: 5em;
+ text-align: center;
+ padding: 10%;
+
+ }
+
+
+
+ .info{
+    font-size: 20px;
+ }
+
+ .info-2{
+    color: rgba(32, 120, 149, 0.907);
+ }
+
+.rel-title{
+    font-size: 50px;
+}
+
+.relevant-info1{
+    font-size: 25px;
+    padding: 10px;
+    text-align: left;
+}
+
+.crosby{
+    display: inline-flex;
+    width: 50%;
+    text-align: left;
+    font-size: 1.5em;
+    font-style: bold;
+
+
+}
+
+.rel-date{
+    padding-left: 100px;
+    display: inline;
+    width: 50%;
+    text-align: right;
+    font-size: 0.8em;
+    color: rgba(96, 85, 72, 0.686);
+}
+
+article{
+    font-size: 1.3rem;
+    text-align: left;
+    padding-left: 20px;
+}
+

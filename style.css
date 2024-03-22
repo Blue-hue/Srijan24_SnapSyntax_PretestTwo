@@ -26,7 +26,7 @@ max-width: 60%;
 margin: auto;
  font-size: 5em;
  text-align: center;
- padding: 10%;
+ padding: 10;
 
  }
 
@@ -48,10 +48,17 @@ margin: auto;
     font-size: 25px;
     padding: 10px;
     text-align: left;
+    max-width: 80%;
+    margin-left: 30%
+    
+}
+
+.relevant-info, article{
+    margin-left: 30%;
 }
 
 .crosby{
-    display: inline-flex;
+    display: inline;
     width: 50%;
     text-align: left;
     font-size: 1.5em;
@@ -75,3 +82,55 @@ article{
     padding-left: 20px;
 }
 
+.footer{
+    position: absolute;
+
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    margin-top: 15px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.footer-works,.socials{
+    width: 25%;
+    max-width: 25%;
+    display: block;
+    font-size: 20px;
+    color: white;
+}
+
+.footer-name{
+    padding-top: 16px;
+    color: white;
+    font-size: 20px;
+    width: 50%;
+}
+
+.social-link{
+    display: block;
+    color: white;
+    padding: 4px;
+    text-align: left;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.rel-title{
+    margin-left: 10px;
+    text-align: left;
+}

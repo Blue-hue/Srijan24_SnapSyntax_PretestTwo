@@ -9,6 +9,7 @@
 
 body{
     margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .nav-button{
@@ -124,6 +125,7 @@ p{
 
 a:link{
     text-decoration: none;
+    color: black;
 }
 
 a:visited{
@@ -133,4 +135,13 @@ a:visited{
 .rel-title{
     margin-left: 10px;
     text-align: left;
+}
+
+.work-date{
+    text-align: center;
+
+}
+
+.work-title{
+    text-align: center;
 }
